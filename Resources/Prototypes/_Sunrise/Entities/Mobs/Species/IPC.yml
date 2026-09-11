@@ -27,8 +27,6 @@
   id: BaseMobIPC
   abstract: true
   components:
-  - type: Respirator
-    Ratio: 0
   - type: Reactive
     groups:
       Acidic: [Touch]
