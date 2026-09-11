@@ -15,7 +15,7 @@
       LegRight: RightLegIPC
       FootLeft: LeftFootIPC
       FootRight: RightFootIPC
-      Brain: PositronicBrain
+      Brain: BorisIPC
       Eyes: OrganIPCEyes
 
 - type: entity

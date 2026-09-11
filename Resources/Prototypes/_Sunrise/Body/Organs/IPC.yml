@@ -9,3 +9,6 @@
     comps:
     - type: FlashModifier
       modifier: 5
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/IPC/organs.rsi
+    state: eyes

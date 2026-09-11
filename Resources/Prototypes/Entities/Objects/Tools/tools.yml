@@ -64,7 +64,7 @@
 
 - type: entity
   name: screwdriver
-  parent: [ BaseItem, Drill ] # Sunrise surgery edit
+  parent: BaseItem
   id: Screwdriver
   description: Industrial grade torque in a small screwdriving package.
   components:
@@ -72,6 +72,7 @@
     sound:
       path: /Audio/Items/screwdriver_drop.ogg
   # Sunrise start
+  - type: SurgicalDrill
   - type: EmitSoundOnPickup
     sound:
       path: /Audio/_Sunrise/Items/Handling/screwdriver_pickup.ogg
