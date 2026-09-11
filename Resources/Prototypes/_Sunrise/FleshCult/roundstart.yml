@@ -40,7 +40,7 @@
       blacklist:
         components:
         - AntagImmune
-        #- Synth # SUNRISE-TODO: КПБ
+        - Reactive
         - BibleUser
       mindRoles:
       - MindRoleFleshCultistLeader
@@ -70,7 +70,7 @@
       blacklist:
         components:
         - AntagImmune
-        #- Synth # SUNRISE-TODO: КПБ
+        - Reactive
         - BibleUser
       mindRoles:
       - MindRoleFleshCultist
