@@ -6,7 +6,7 @@ names-ipc-dataset-5 = Егор-NT
 names-ipc-dataset-6 = ZXC-Патриот-НТ
 names-ipc-dataset-7 = НЕ-бот
 names-ipc-dataset-8 = Затрон
-names-ipc-dataset-9 А ТИП-АА
+names-ipc-dataset-9 = ТИП-АА
 names-ipc-dataset-10 = Бипски
 names-ipc-dataset-11 = Релик
 names-ipc-dataset-12 = НЕ-робот
