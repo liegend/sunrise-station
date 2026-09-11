@@ -1,6 +1,5 @@
 using Content.Shared.Examine;
 using Content.Shared.Rejuvenate;
-using Content.Shared.Stunnable;
 using Content.Shared.Tag;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
@@ -22,7 +21,6 @@ public abstract class SharedEmpSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     // Sunrise-Edit-Start
     [Dependency] private readonly DamageableSystem _damageable = default!;
-    [Dependency] private readonly SharedStunSystem _stun = default!;
     [Dependency] private readonly TagSystem _tagSystem = default!;
 
     private static readonly ProtoId<TagPrototype> IPCTag = "IPC";
@@ -138,8 +136,6 @@ public abstract class SharedEmpSystem : EntitySystem
             var damage = new DamageSpecifier();
             damage.DamageDict.Add("Shock", 60);
             _damageable.TryChangeDamage(uid, damage, origin: user);
-
-            _stun.TryAddParalyzeDuration(uid, TimeSpan.FromSeconds(5));
 
             if (_net.IsServer)
                 Spawn(EmpDisabledEffectPrototype, Transform(uid).Coordinates);
