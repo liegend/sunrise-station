@@ -1,6 +1,6 @@
 - type: entity
   name: wirecutter
-  parent: [ BaseItem, Hemostat ] # Sunrise surgery edit
+  parent: BaseItem
   id: Wirecutter
   description: This kills the wire.
   components:
@@ -8,6 +8,7 @@
     sound:
       path: /Audio/Items/wirecutter_drop.ogg
   # Sunrise start
+  - type: Hemostat
   - type: EmitSoundOnPickup
     sound:
       path: /Audio/_Sunrise/Items/Handling/wirecutter_pickup.ogg
@@ -125,7 +126,7 @@
 
 - type: entity
   name: wrench
-  parent: [ BaseItem, BoneSetter ] # Sunrise surgery edit
+  parent: BaseItem
   id: Wrench
   description: 'A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
   components:
@@ -133,6 +134,7 @@
     sound:
       path: /Audio/Items/wrench_drop.ogg
   # Sunrise start
+  - type: BoneSetter
   - type: EmitSoundOnPickup
     sound:
       path: /Audio/_Sunrise/Items/Handling/wrench_pickup.ogg
