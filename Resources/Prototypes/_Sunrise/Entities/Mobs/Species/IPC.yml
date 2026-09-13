@@ -27,6 +27,8 @@
   id: BaseMobIPC
   abstract: true
   components:
+  - type: Internals
+    delay: 0
   - type: Reactive
     groups:
       Acidic: [Touch]
@@ -180,6 +182,10 @@
       0: Alive
       100: Critical
       200: Dead
+    stateAlertDict:
+      Alive: BorgHealth
+      Critical: BorgCrit
+      Dead: BorgDead
     showOverlays: false
     allowRevives: true
   - type: FootprintEmitter

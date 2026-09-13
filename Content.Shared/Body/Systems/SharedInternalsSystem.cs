@@ -9,6 +9,7 @@ using Content.Shared.Internals;
 using Content.Shared.Inventory;
 using Content.Shared.Movement.Components;
 using Content.Shared.Popups;
+using Content.Shared.Tag;
 using Content.Shared.Verbs;
 using Robust.Shared.Containers;
 using Robust.Shared.Utility;
@@ -25,6 +26,7 @@ public abstract partial class SharedInternalsSystem : EntitySystem
     [Dependency] private SharedDoAfterSystem _doAfter = default!;
     [Dependency] private SharedGasTankSystem _gasTank = default!;
     [Dependency] private SharedPopupSystem _popupSystem = default!;
+    [Dependency] private TagSystem _tagSystem = default!; // Sunrise-IPC-Edit
 
     public override void Initialize()
     {
