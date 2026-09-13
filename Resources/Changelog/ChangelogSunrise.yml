@@ -4845,3 +4845,28 @@
     message: Исправлена просадка FPS при продолжительной стрельбе из лазерного оружия МЕХов.
   id: 2027
   url: https://github.com/makura-games/sunrise-station/pull/4779
+- author: Den_Gor
+  time: '2026-09-06T15:44:32.0000000+00:00'
+  changes:
+  - type: Fix
+    message: Исправлено отображение имён персонажей в панели взаимодействий — при скрытой личности теперь показывается описание вместо настоящего имени
+  - type: Fix
+    message: Исправлено выравнивание блока персонажей в панели взаимодействий
+  id: 2028
+  url: https://github.com/makura-games/sunrise-station/pull/4793
+- author: KaiserMaus
+  time: '2026-09-11T05:06:16.0000000+00:00'
+  changes:
+  - type: Tweak
+    message: Экспансивные патроны теперь наносят 10% урона ушибами и 10%  порезами и 80% урона уколами вместо 100%  уколы.
+  - type: Tweak
+    message: Респрайт С-40r.
+  id: 2029
+  url: https://github.com/makura-games/sunrise-station/pull/4803
+- author: kanopus7
+  time: '2026-09-12T20:57:09.0000000+00:00'
+  changes:
+  - type: Add
+    message: Апстрим от Wizden до 17 мая.
+  id: 2030
+  url: https://github.com/makura-games/sunrise-station/pull/4732
