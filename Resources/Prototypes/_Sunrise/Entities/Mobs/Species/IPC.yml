@@ -112,7 +112,6 @@
         Structural: -10
         Mangleness: 1
   - type: Damageable
-    damageContainer: Silicon
     damageModifierSet: IPC
   - type: ComplexInteraction
   - type: IntrinsicRadioReceiver

@@ -25,7 +25,7 @@ public abstract partial class SharedEmpSystem : EntitySystem
     [Dependency] private DamageableSystem _damageable = default!;
     [Dependency] private TagSystem _tagSystem = default!;
 
-    private static readonly ProtoId<TagPrototype> IPCTag = "IPC";
+    private static ProtoId<TagPrototype> IPCTag = "IPC";
     // Sunrise-Edit-End
     private HashSet<EntityUid> _entSet = new();
 
