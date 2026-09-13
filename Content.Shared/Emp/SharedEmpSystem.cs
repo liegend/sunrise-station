@@ -14,16 +14,16 @@ namespace Content.Shared.Emp;
 
 public abstract partial class SharedEmpSystem : EntitySystem
 {
-    [Dependency] protected readonly IGameTiming Timing = default!;
-    [Dependency] private readonly EntityLookupSystem _lookup = default!;
-    [Dependency] private readonly INetManager _net = default!;
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] protected IGameTiming Timing = default!;
+    [Dependency] private EntityLookupSystem _lookup = default!;
+    [Dependency] private INetManager _net = default!;
+    [Dependency] private SharedAudioSystem _audio = default!;
+    [Dependency] private SharedTransformSystem _transform = default!;
 
     [Dependency] private EntityQuery<EmpResistanceComponent> _resistanceQuery = default!;
     // Sunrise-Edit-Start
-    [Dependency] private readonly DamageableSystem _damageable = default!;
-    [Dependency] private readonly TagSystem _tagSystem = default!;
+    [Dependency] private DamageableSystem _damageable = default!;
+    [Dependency] private TagSystem _tagSystem = default!;
 
     private static readonly ProtoId<TagPrototype> IPCTag = "IPC";
     // Sunrise-Edit-End
