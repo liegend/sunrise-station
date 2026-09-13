@@ -941,6 +941,7 @@
   - HumanoidXeno
   - Predator
   - Milira
+  - IPC
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
