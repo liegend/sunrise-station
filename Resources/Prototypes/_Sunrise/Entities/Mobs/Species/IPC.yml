@@ -181,10 +181,6 @@
       0: Alive
       100: Critical
       200: Dead
-    stateAlertDict:
-      Alive: BorgHealth
-      Critical: BorgCrit
-      Dead: BorgDead
     showOverlays: false
     allowRevives: true
   - type: FootprintEmitter
