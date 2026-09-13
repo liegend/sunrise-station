@@ -3,9 +3,6 @@
   parent: [SolutionWelder, BaseItem]
   id: BaseWelder
   components:
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Items/welder_drop.ogg
   # Sunrise start
   - type: Cautery
   - type: SurgeryTool
